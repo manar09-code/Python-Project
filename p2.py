@@ -16,7 +16,7 @@ def main():
         host="localhost",
         user="root",
         password="",  # Laisse vide si tu n’as pas mis de mot de passe
-        database="reservations_db"  # ⚠️ Vérifie que le nom de la base correspond bien à ta base phpMyAdmin
+        database="reservations_sportive"  # ⚠️ Vérifie que le nom de la base correspond bien à ta base phpMyAdmin
     )
     cursor = conn.cursor()
 
