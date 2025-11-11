@@ -12,7 +12,7 @@ def connexion_db():
     try:
         conn = mysql.connector.connect(
             host="localhost",
-            user="root",         
+            user="root",
             password="",         
             database="reservation_sportive"
         )
@@ -20,6 +20,7 @@ def connexion_db():
     except mysql.connector.Error as err:
         print(f"Erreur de connexion MySQL : {err}")
         return None
+
 
 
 # --- Fonction de validation / enregistrement utilisateur ---
