@@ -3,15 +3,15 @@ from tkinter import ttk, messagebox
 from PIL import Image, ImageTk
 from datetime import date
 import customtkinter as ctk
-import mysql.connector  # ✅ Connexion MySQL (XAMPP)
+import mysql.connector  # onnexion MySQL (XAMPP)
 
 def main():
     fenetre = Tk()
     fenetre.title("Système de Réservation Sportive")
     fenetre.configure(bg="white")
 
-    # --- ✅ FULL SCREEN SETUP ---
-    fenetre.state("zoomed")  # full-screen on Windows
+    # ---FULL SCREEN SETUP ---
+    fenetre.state("zoomed")  # fullscreen on Windows
     fenetre.bind("<Escape>", lambda e: fenetre.attributes("-fullscreen", False))  # press ESC to exit fullscreen
 
     # --- DATABASE SETUP ---
