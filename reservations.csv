@@ -1,0 +1,6 @@
+nom,date,heure,terrain,forfait,abonnement,equipment,coaching,user
+Manar,30/11/2025,08:00-10:00,Terrain de Basketball,Standard,1
+hi,30/11/2025,08:00-10:00,Terrain de Tennis,Standard,0
+eya,02/12/2025,08:00-10:00,Terrain de Basketball,Standard,1
+eya,03/12/2025,08:00-10:00,Terrain de Basketball,Standard,0,1,1,
+manar,03/12/2025,08:00-10:00,Terrain de Basketball,Standard,1,1,1,manar
